@@ -1,0 +1,25 @@
+/**
+ * It's important to name-space your global styles in a Third-Party 
+ * widget, so your styles don't conflict with other styles on the page
+ */
+
+.widget-root * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.widget-root {
+  --text-color: #000000;
+  --border-color: #000000;
+}
+
+.widget-root a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.widget-root p {
+  font-size: 1rem;
+}
